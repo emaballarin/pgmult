@@ -15,7 +15,7 @@ setup(
     author_email='slinderman@seas.harvard.edu, mattjj@csail.mit.edu',
     license="MIT",
     url='https://github.com/HIPS/pgmult',
-    packages=['pgmult'],
+    packages=['pgmult', 'pgmult.internals'],
     install_requires=[
         'Cython >= 0.20.1', 'numpy', 'scipy', 'matplotlib',
         'pybasicbayes', 'pypolyagamma', 'gslrandom', 'pylds'],
